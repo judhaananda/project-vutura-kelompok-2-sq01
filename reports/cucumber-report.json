@@ -1,0 +1,842 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to Create a Chatbot",
+    "elements": [
+      {
+        "id": "create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Create Chatbot on Vutura.io website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page",
+            "result": {
+              "status": "passed",
+              "duration": 1135900
+            },
+            "line": 9,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 390400
+            },
+            "line": 10,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 348400
+            },
+            "line": 11,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button",
+            "result": {
+              "status": "passed",
+              "duration": 359200
+            },
+            "line": 12,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click Create Chatbot button",
+            "result": {
+              "status": "passed",
+              "duration": 871800
+            },
+            "line": 13,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user choose the avatar",
+            "result": {
+              "status": "passed",
+              "duration": 356600
+            },
+            "line": 14,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill chatbot name",
+            "result": {
+              "status": "passed",
+              "duration": 206200
+            },
+            "line": 15,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill chatbot description",
+            "result": {
+              "status": "passed",
+              "duration": 925500
+            },
+            "line": 16,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Buat Chatbot button",
+            "result": {
+              "status": "passed",
+              "duration": 214300
+            },
+            "line": 17,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user see the new bot created",
+            "result": {
+              "status": "passed",
+              "duration": 11815469100
+            },
+            "line": 18,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbot-steps.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1287101200
+            },
+            "hidden": true,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-chatbot-on-vutura.io-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Create Chatbot on Vutura.io website",
+    "tags": [],
+    "uri": "D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/createChatbot.feature"
+  },
+  {
+    "description": "    As a user\n    I want to be able to Create a Chatbot",
+    "elements": [
+      {
+        "id": "create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Failed to Create Chatbot on Vutura.io website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 952100
+            },
+            "line": 9,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 235800
+            },
+            "line": 10,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 214000
+            },
+            "line": 11,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 183800
+            },
+            "line": 12,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click Create Chatbot button (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 2702700
+            },
+            "line": 13,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user choose the avatar (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 309800
+            },
+            "line": 14,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill chatbot name (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 202100
+            },
+            "line": 15,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Buat Chatbot button (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 196800
+            },
+            "line": 16,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user see the the failed to create bot notification",
+            "result": {
+              "status": "passed",
+              "duration": 10912164800
+            },
+            "line": 17,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\createChatbotFail-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1157669100
+            },
+            "hidden": true,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-chatbot-on-vutura.io-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Create Chatbot on Vutura.io website",
+    "tags": [],
+    "uri": "D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/createChatbotFail.feature"
+  },
+  {
+    "description": "    As a user\n    I want to be able to edit profile",
+    "elements": [
+      {
+        "id": "edit-profile-on-the-website;user-success-to-edit-profile-on-the-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User Success to edit profile on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse signin page5",
+            "result": {
+              "status": "passed",
+              "duration": 464800
+            },
+            "line": 9,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field5",
+            "result": {
+              "status": "passed",
+              "duration": 781200
+            },
+            "line": 10,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field5",
+            "result": {
+              "status": "passed",
+              "duration": 187200
+            },
+            "line": 11,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button5",
+            "result": {
+              "status": "passed",
+              "duration": 166200
+            },
+            "line": 12,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button5",
+            "result": {
+              "status": "passed",
+              "duration": 304800
+            },
+            "line": 13,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profil button5",
+            "result": {
+              "status": "passed",
+              "duration": 956400
+            },
+            "line": 14,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button5",
+            "result": {
+              "status": "passed",
+              "duration": 581900
+            },
+            "line": 15,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill name field5",
+            "result": {
+              "status": "passed",
+              "duration": 198900
+            },
+            "line": 16,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill business field5",
+            "result": {
+              "status": "passed",
+              "duration": 219300
+            },
+            "line": 17,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill number field5",
+            "result": {
+              "status": "passed",
+              "duration": 172300
+            },
+            "line": 18,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click restore button5",
+            "result": {
+              "status": "passed",
+              "duration": 188400
+            },
+            "line": 19,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user see the profile edited5",
+            "result": {
+              "status": "passed",
+              "duration": 13452049700
+            },
+            "line": 20,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profile.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1398650200
+            },
+            "hidden": true,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-profile-on-the-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "edit profile on the website",
+    "tags": [],
+    "uri": "D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/edit.feature"
+  },
+  {
+    "description": "    As a user\n    I want to be able to edit profile",
+    "elements": [
+      {
+        "id": "edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User failed to edit profile on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse signin page6",
+            "result": {
+              "status": "passed",
+              "duration": 325300
+            },
+            "line": 9,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field6",
+            "result": {
+              "status": "passed",
+              "duration": 179000
+            },
+            "line": 10,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field6",
+            "result": {
+              "status": "passed",
+              "duration": 148500
+            },
+            "line": 11,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button6",
+            "result": {
+              "status": "passed",
+              "duration": 1331000
+            },
+            "line": 12,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button6",
+            "result": {
+              "status": "passed",
+              "duration": 288400
+            },
+            "line": 13,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profil button6",
+            "result": {
+              "status": "passed",
+              "duration": 565900
+            },
+            "line": 14,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button6",
+            "result": {
+              "status": "passed",
+              "duration": 1409200
+            },
+            "line": 15,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill name field6",
+            "result": {
+              "status": "passed",
+              "duration": 193000
+            },
+            "line": 16,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill business field6",
+            "result": {
+              "status": "passed",
+              "duration": 238900
+            },
+            "line": 17,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill number field6",
+            "result": {
+              "status": "passed",
+              "duration": 161800
+            },
+            "line": 18,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click restore button6",
+            "result": {
+              "status": "passed",
+              "duration": 336100
+            },
+            "line": 19,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user see failed the profile edited",
+            "result": {
+              "status": "passed",
+              "duration": 13368797700
+            },
+            "line": 20,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\edit-profilefail.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1107694400
+            },
+            "hidden": true,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-profile-on-the-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "edit profile on the website",
+    "tags": [],
+    "uri": "D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/editfail.feature"
+  },
+  {
+    "description": "    As a user\n    I want to be able to logout",
+    "elements": [
+      {
+        "id": ";user-success-to-logout-on-the-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to logout on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page2",
+            "result": {
+              "status": "passed",
+              "duration": 1591200
+            },
+            "line": 9,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\logout-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field2",
+            "result": {
+              "status": "passed",
+              "duration": 210600
+            },
+            "line": 10,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\logout-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field2",
+            "result": {
+              "status": "passed",
+              "duration": 180300
+            },
+            "line": 11,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\logout-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button2",
+            "result": {
+              "status": "passed",
+              "duration": 179700
+            },
+            "line": 12,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\logout-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click burgermenu button2",
+            "result": {
+              "status": "passed",
+              "duration": 306400
+            },
+            "line": 13,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\logout-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click logout button2",
+            "result": {
+              "status": "passed",
+              "duration": 316300
+            },
+            "line": 14,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\logout-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user can see login page",
+            "result": {
+              "status": "passed",
+              "duration": 12933945500
+            },
+            "line": 15,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\step-definitions\\logout-steps.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1216881200
+            },
+            "hidden": true,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\Feature-Testing-Vutura\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "",
+    "tags": [],
+    "uri": "D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/logout.feature"
+  }
+]

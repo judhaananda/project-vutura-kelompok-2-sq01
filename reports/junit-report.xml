@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/createChatbot.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0011359">
+        </testcase>
+        <testcase name="And user fill email field" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0003904">
+        </testcase>
+        <testcase name="And user fill password field" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0003484">
+        </testcase>
+        <testcase name="And user click login button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0003592">
+        </testcase>
+        <testcase name="And user click Create Chatbot button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0008718">
+        </testcase>
+        <testcase name="And user choose the avatar" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0003566">
+        </testcase>
+        <testcase name="And user fill chatbot name" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0002062">
+        </testcase>
+        <testcase name="And user fill chatbot description" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0009255">
+        </testcase>
+        <testcase name="When user click Buat Chatbot button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0002143">
+        </testcase>
+        <testcase name="Then user see the new bot created" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="11.8154691">
+        </testcase>
+    </testsuite>
+    <testsuite name="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/createChatbotFail.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0009521">
+        </testcase>
+        <testcase name="And user fill email field (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0002358">
+        </testcase>
+        <testcase name="And user fill password field (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.000214">
+        </testcase>
+        <testcase name="And user click login button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0001838">
+        </testcase>
+        <testcase name="And user click Create Chatbot button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0027027">
+        </testcase>
+        <testcase name="And user choose the avatar (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0003098">
+        </testcase>
+        <testcase name="And user fill chatbot name (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0002021">
+        </testcase>
+        <testcase name="When user click Buat Chatbot button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0001968">
+        </testcase>
+        <testcase name="Then user see the the failed to create bot notification" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="10.9121648">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/edit.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signin page5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0004648">
+        </testcase>
+        <testcase name="And user fill email field5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0007812">
+        </testcase>
+        <testcase name="And user fill password field5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0001872">
+        </testcase>
+        <testcase name="And user click login button5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0001662">
+        </testcase>
+        <testcase name="And user click menu button5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0003048">
+        </testcase>
+        <testcase name="And user click profil button5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0009564">
+        </testcase>
+        <testcase name="And user click edit button5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0005819">
+        </testcase>
+        <testcase name="And user fill name field5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0001989">
+        </testcase>
+        <testcase name="And user fill business field5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0002193">
+        </testcase>
+        <testcase name="And user fill number field5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0001723">
+        </testcase>
+        <testcase name="When user click restore button5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0001884">
+        </testcase>
+        <testcase name="Then user see the profile edited5" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="13.4520497">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/editfail.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signin page6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0003253">
+        </testcase>
+        <testcase name="And user fill email field6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.000179">
+        </testcase>
+        <testcase name="And user fill password field6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0001485">
+        </testcase>
+        <testcase name="And user click login button6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.001331">
+        </testcase>
+        <testcase name="And user click menu button6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0002884">
+        </testcase>
+        <testcase name="And user click profil button6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0005659">
+        </testcase>
+        <testcase name="And user click edit button6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0014092">
+        </testcase>
+        <testcase name="And user fill name field6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.000193">
+        </testcase>
+        <testcase name="And user fill business field6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0002389">
+        </testcase>
+        <testcase name="And user fill number field6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0001618">
+        </testcase>
+        <testcase name="When user click restore button6" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0003361">
+        </testcase>
+        <testcase name="Then user see failed the profile edited" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="13.3687977">
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-success-to-logout-on-the-website" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/File Yudha/DTI_SQA/Feature-Testing-Vutura/features/logout.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page2" classname=";user-success-to-logout-on-the-website" time="0.0015912">
+        </testcase>
+        <testcase name="And user fill email field2" classname=";user-success-to-logout-on-the-website" time="0.0002106">
+        </testcase>
+        <testcase name="And user fill password field2" classname=";user-success-to-logout-on-the-website" time="0.0001803">
+        </testcase>
+        <testcase name="And user click login button2" classname=";user-success-to-logout-on-the-website" time="0.0001797">
+        </testcase>
+        <testcase name="And user click burgermenu button2" classname=";user-success-to-logout-on-the-website" time="0.0003064">
+        </testcase>
+        <testcase name="When user click logout button2" classname=";user-success-to-logout-on-the-website" time="0.0003163">
+        </testcase>
+        <testcase name="Then user can see login page" classname=";user-success-to-logout-on-the-website" time="12.9339455">
+        </testcase>
+    </testsuite>
+</testsuites>
